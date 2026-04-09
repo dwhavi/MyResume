@@ -59,10 +59,15 @@ export function localRemove(key: string): void {
 
 // ─── 앱 전용 스토리지 키 상수 ────────────────────────────────────────────────
 
+export const saveToStorage = sessionSet;
+export const loadFromStorage = sessionGet;
+
 export const STORAGE_KEYS = {
   JOB_DESCRIPTION: 'mr_job_description',
   PROFILE_DRAFT: 'mr_profile_draft',
   PROFILE_SAVED: 'mr_profile_saved',   // localStorage — 재방문 시 복원
+  CURRENT_STEP: 'mr_current_step',
   ANALYSIS_RESULT: 'mr_analysis_result',
+  MATCH_SCORE: 'mr_match_score',
   RESUME_RESULT: 'mr_resume_result',
 } as const;

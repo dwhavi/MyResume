@@ -45,11 +45,11 @@ IT/개발 직무 구직자(주니어~미드)가 채용공고를 붙여넣으면,
 - **전체를 미리 다 읽지 않는다.** 작업 중 필요가 생길 때만 해당 파일을 읽는다.
 - 어떤 파일을 읽을지는 아래 지식 베이스 목차에서 용도를 보고 판단한다.
 - 예시:
-  - API Route 작성 중 → `docs/api-design.md` + `docs/skills/openai-json-output.md`
-  - PDF 생성 중 → `docs/pdf-spec.md` + `docs/skills/html2canvas-jspdf.md`
+  - API Route 작성 중 → `docs/api-design.md` + `.agent/skills/openai-json-output.md`
+  - PDF 생성 중 → `docs/pdf-spec.md` + `.agent/skills/html2canvas-jspdf.md`
   - 폼 컴포넌트 작성 중 → `docs/ui-ux.md` + `docs/data-model.md`
-  - 테스트 작성 중 → `docs/skills/tdd-testing.md`
-  - 사진 업로드/크롭 중 → `docs/skills/react-easy-crop.md`
+  - 테스트 작성 중 → `.agent/skills/tdd-testing.md`
+  - 사진 업로드/크롭 중 → `.agent/skills/react-easy-crop.md`
 
 ---
 
@@ -83,13 +83,13 @@ IT/개발 직무 구직자(주니어~미드)가 채용공고를 붙여넣으면,
 ### 스킬 (코드 패턴 참고)
 | 파일 | 내용 |
 |------|------|
-| `docs/skills/nextjs-app-router.md` | App Router, Server/Client 분리 |
-| `docs/skills/korean-resume-format.md` | 한국 이력서 항목순서, 작법, 톤 |
-| `docs/skills/html2canvas-jspdf.md` | PDF 생성 패턴 + 함정 |
-| `docs/skills/openai-json-output.md` | JSON 출력 + 재시도 + 주입 방어 |
-| `docs/skills/zod-validation.md` | Zod 스키마 검증 패턴 |
-| `docs/skills/react-easy-crop.md` | 사진 업로드+크롭+압축 |
-| `docs/skills/tdd-testing.md` | TDD 단위 테스트 (Vitest, 레이어별 패턴) |
+| `.agent/skills/nextjs-app-router.md` | App Router, Server/Client 분리 |
+| `.agent/skills/korean-resume-format.md` | 한국 이력서 항목순서, 작법, 톤 |
+| `.agent/skills/html2canvas-jspdf.md` | PDF 생성 패턴 + 함정 |
+| `.agent/skills/openai-json-output.md` | JSON 출력 + 재시도 + 주입 방어 |
+| `.agent/skills/zod-validation.md` | Zod 스키마 검증 패턴 |
+| `.agent/skills/react-easy-crop.md` | 사진 업로드+크롭+압축 |
+| `.agent/skills/tdd-testing.md` | TDD 단위 테스트 (Vitest, 레이어별 패턴) |
 
 ## 아키텍처 계층 (엄격)
 

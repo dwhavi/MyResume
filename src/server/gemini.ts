@@ -41,7 +41,7 @@ export async function generateResumeWithGemini(
 ): Promise<GeminiResponseOutput> {
   const client = getGeminiClient();
   const model = client.getGenerativeModel({
-    model: 'gemini-1.5-flash',
+    model: 'gemini-flash-latest',
     generationConfig: {
       temperature: 0.4,
       responseMimeType: 'application/json',
